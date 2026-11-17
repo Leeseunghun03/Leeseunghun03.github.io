@@ -1,0 +1,29 @@
+{% assign paper = include.paper %}
+{% assign citation_id = paper.short_title | slugify | prepend: 'bibtex-' %}
+{% assign media_url = paper.video | default: paper.paperurl %}
+<article id="publication-{{ paper.short_title | slugify }}" class="research-card">
+  <a class="research-card-media" href="{{ media_url | relative_url }}" aria-label="{% if paper.video %}Watch {{ paper.short_title | escape }} on YouTube{% else %}Read {{ paper.short_title | escape }}{% endif %}">
+    <img src="{{ paper.teaser | relative_url }}" alt="{{ paper.teaser_alt | escape }}" width="1000" height="600" loading="lazy">
+    {% if paper.preview and include.motion %}
+    <video class="research-preview" muted loop playsinline preload="none" data-preview="{{ paper.preview | relative_url }}" aria-hidden="true" tabindex="-1"></video>
+    <span class="media-label" aria-hidden="true">Experiment preview</span>
+    {% endif %}
+  </a>
+  <div class="research-card-body">
+    <p class="eyebrow">{{ paper.venue_short }} · {{ paper.year }}</p>
+    <h3><a href="{{ paper.paperurl | relative_url }}">{{ paper.title }}</a></h3>
+    <p class="authors">{{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="research-summary">{{ paper.summary }}</p>
+    <div class="text-links">
+      <a href="{{ paper.paperurl | relative_url }}">Paper <span aria-hidden="true">↗</span></a>
+      {% if paper.video %}<a href="{{ paper.video }}">Video <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if paper.codeurl %}<a href="{{ paper.codeurl }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if paper.bibtex %}<button type="button" class="bibtex-copy" data-citation-id="{{ citation_id }}" aria-controls="{{ citation_id }}" aria-expanded="false" aria-label="Copy BibTeX for {{ paper.short_title | escape }}">BibTeX</button>{% endif %}
+    </div>
+    {% if paper.bibtex %}
+    <p id="{{ citation_id }}-help" class="copy-help" hidden>Automatic copy is unavailable. Copy the selected text below{% if paper.bibtexurl %} or <a href="{{ paper.bibtexurl | relative_url }}">download the .bib file</a>{% endif %}.</p>
+    <pre id="{{ citation_id }}" class="citation-source" aria-label="{{ paper.short_title | escape }} BibTeX" hidden>{{ paper.bibtex | strip | escape }}</pre>
+    {% endif %}
+    <noscript>{% if paper.bibtexurl %}<a href="{{ paper.bibtexurl | relative_url }}">Download BibTeX</a>{% endif %}</noscript>
+  </div>
+</article>

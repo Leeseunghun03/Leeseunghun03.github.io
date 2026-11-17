@@ -1,0 +1,56 @@
+% Adapted from the supplied Awesome-PhD-CV research CV.
+% Awesome-CV by Claud D. Park: https://github.com/posquit0/Awesome-CV
+% Template licensed under CC BY-SA 4.0.
+% Content placeholders are filled by scripts/build-cv.py from the website data.
+\documentclass[11pt,a4paper]{awesome-cv}
+\geometry{left=1.4cm,top=1.2cm,right=1.4cm,bottom=1.6cm,footskip=.5cm}
+\renewcommand{\acvSectionTopSkip}{5mm}
+\renewcommand{\acvSectionContentTopSkip}{3mm}
+\definecolor{awesome}{HTML}{101CA4}
+\setbool{acvSectionColorHighlight}{false}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\name{Seunghun}{Lee}
+\position{M.S. Student{\enskip\cdotp\enskip}SLAM{\enskip\cdotp\enskip}Robot Perception}
+\address{Daejeon, Republic of Korea}
+\email{@@EMAIL@@}
+\github{@@GITHUB@@}
+\begin{document}
+\makecvheader
+\makecvfooter{\today}{Seunghun Lee~~~·~~~Curriculum Vitae}{\thepage}
+
+\cvsection{Summary}
+
+\begin{cvparagraph}
+@@SUMMARY@@
+\end{cvparagraph}
+
+\cvsection{Education}
+\begin{cventries}
+@@EDUCATION@@
+\end{cventries}
+
+\cvsection{Research \& Engineering Experience}
+\begin{cventries}
+@@EXPERIENCE@@
+\end{cventries}
+
+\cvsection{Publications}
+{\fontsize{9pt}{11pt}\bodyfontlight\selectfont
+\begin{enumerate}[leftmargin=1.5em,itemsep=5pt,parsep=0pt]
+@@PUBLICATIONS@@
+\end{enumerate}
+\textsuperscript{*}Equal contribution.
+}
+
+\newpage
+\cvsection{Honors \& Awards}
+\begin{cvhonors}
+@@HONORS@@
+\end{cvhonors}
+
+\cvsection{Technical Skills}
+\begin{cvskills}
+  \cvskill{Software}{C++, Python, ROS/ROS 2, Ceres Solver, Eigen, OpenCV, PyTorch, Linux, Git, Docker}
+  \cvskill{Hardware}{3D LiDAR, IMU, cameras (event, 360-degree); UAVs, quadrupeds, humanoids}
+\end{cvskills}
+\end{document}

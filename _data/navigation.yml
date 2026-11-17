@@ -1,0 +1,14 @@
+# Homepage section links. The CV download lives in the introduction.
+main:
+  - title: "About"
+    url: /#about
+    section: about
+  - title: "Publications"
+    url: /#publications
+    section: publications
+  - title: "Background"
+    url: /#background
+    section: background
+  - title: "Honors"
+    url: /#honors
+    section: honors

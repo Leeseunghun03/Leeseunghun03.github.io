@@ -1,0 +1,41 @@
+locale: en-US
+title: Seunghun Lee / Robotics Researcher
+name: Seunghun Lee
+description: Seunghun Lee · Robotics at KAIST. Visual-inertial SLAM, multimodal state
+  estimation, and autonomous navigation.
+author:
+  avatar: profile.jpg
+  name: Seunghun Lee
+  bio: M.S. Student in Robotics
+  location: Daejeon, Republic of Korea
+  employer: Urban Robotics Lab, KAIST
+  uri: https://urobot.kaist.ac.kr/
+  email: shleee@kaist.ac.kr
+  github: Leeseunghun03
+  linkedin: seunghun-lee-626560387
+url: https://leeseunghun03.github.io
+baseurl: ''
+repository: Leeseunghun03/Leeseunghun03.github.io
+future: true
+markdown: kramdown
+collections:
+  publications:
+    output: false
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+plugins:
+- jekyll-sitemap
+exclude:
+- README.md
+- NOTICE.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- cv-source
+- scripts
+- vendor
+- .bundle
+- local

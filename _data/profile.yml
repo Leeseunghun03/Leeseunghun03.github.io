@@ -1,0 +1,97 @@
+interests:
+  - "Visual–Inertial SLAM / Odometry & Multi-Modal State Estimation"
+  - "Autonomous Navigation"
+
+education:
+  - institution: "Korea Advanced Institute of Science and Technology (KAIST)"
+    logo: /images/logos/kaist.png
+    logo_alt: "KAIST"
+    url: "https://www.kaist.ac.kr/en/"
+    degree: "M.S. in Robotics"
+    dates: "Mar. 2026 – Present"
+    location: "Daejeon, Republic of Korea"
+    description: "Advised by Prof. Hyun Myung, Urban Robotics Lab."
+  - institution: "Kwangwoon University"
+    logo: /images/logos/kwangwoon.png
+    logo_alt: "Kwangwoon University"
+    mark_style: seal
+    url: "https://www.kw.ac.kr/en/"
+    degree: "B.S. in Robotics"
+    dates: "Mar. 2022 – Feb. 2026"
+    location: "Seoul, Republic of Korea"
+    description: "GPA: 4.22 / 4.5. Undergraduate Research Intern at Urban Robotics Lab, KAIST, Jun. 2025 – Feb. 2026."
+
+summary: "I am an M.S. student at KAIST, advised by Prof. Hyun Myung in the Urban Robotics Lab. My research focuses on SLAM, multimodal state estimation, and autonomous navigation in challenging real-world environments."
+
+experience:
+  - title: "Dexterous and Agile Humanoid Robots for Industrial Applications"
+    dates: "Mar. 2026 – Present"
+    organization: "Urban Robotics Lab, KAIST"
+    url: "https://urobot.kaist.ac.kr/"
+    support: "Supported by MOTIE, Republic of Korea"
+    description: "SLAM for humanoid robots."
+  - title: "Software Technology for Efficient Multimodal Visual Information Processing in High-Speed Spatial Interactions"
+    dates: "Mar. 2026 – Present"
+    organization: "Urban Robotics Lab, KAIST"
+    url: "https://urobot.kaist.ac.kr/"
+    support: "Supported by IITP (MSIT), Republic of Korea"
+    description: "Visual–inertial SLAM in dynamic environments."
+
+  - title: "RO:BIT — Intelligent Robot Team"
+    dates: "Jul. 2022 – Dec. 2024"
+    organization: "Kwangwoon University"
+    url: "https://www.kw.ac.kr/ko/life/activity08.jsp"
+    role: "Team member; Team Leader (2024)"
+    video_url: "https://www.youtube.com/watch?v=MCHbNuHfIvg"
+    description: ""
+
+honors:
+  - title: "1st Prize, SLAM Track"
+    dates: "2026"
+    event: "Hilti × Trimble SLAM Challenge, IEEE ICRA 2026"
+    description: "Vienna, Austria · ACDC-K, KAIST · 62 participating teams"
+    url: "https://hilti-trimble-challenge.com/"
+    result_url: "https://hilti-trimble-challenge.com/leaderboard-2026"
+    logos:
+      - src: /images/logos/hilti.svg
+        alt: "Hilti"
+      - src: /images/logos/trimble.svg
+        alt: "Trimble"
+  - title: "2nd Place"
+    show_on_home: false
+    dates: "2024"
+    event: "STEAM CUP IRC TurtleBot3 AutoRace"
+    description: "Korean Agency for Technology and Standards Award"
+    url: "https://www.kw.ac.kr/ko/life/newsletter.jsp?BoardMode=view&DUID=48135"
+  - title: "2nd Place · Hanwha Defense Robotics Award"
+    dates: "2024"
+    event: "Army Chief of Staff National Defense Robotics Competition"
+    url: "https://www.kw.ac.kr/ko/life/newsletter.jsp?BoardMode=view&DUID=47691"
+  - title: "Semifinalist"
+    dates: "2024"
+    event: "RoboCup Rescue Robot League"
+    description: "Eindhoven, the Netherlands · RO:BIT, Kwangwoon University"
+    url: "https://2024.robocup.org/"
+    logos:
+      - src: /images/logos/robocup-2024.png
+        alt: "RoboCup 2024"
+  - title: "1st Place · Prime Minister’s Award"
+    dates: "2023"
+    event: "STEAM CUP IRC TurtleBot3 AutoRace"
+    url: "https://www.kw.ac.kr/ko/life/newsletter.jsp?BoardMode=view&DUID=44142"
+  - title: "2nd Place · Army Chief of Staff Award"
+    dates: "2023"
+    event: "Minister of National Defense Drone-Bot Challenge"
+    video_url: "https://www.youtube.com/watch?v=hLAJANKwaQ8"
+  - title: "Semifinalist"
+    dates: "2023"
+    event: "RoboCup Rescue Robot League"
+    description: "Bordeaux, France · RO:BIT, Kwangwoon University"
+    url: "https://2023.robocup.org/en/home/"
+    logos:
+      - src: /images/logos/robocup-2023.png
+        alt: "RoboCup 2023 Bordeaux"
+  - title: "Academic Excellence Scholarship"
+    dates: "2022"
+    event: "Kwangwoon University"
+    description: "Top of class"
