@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Seunghun Lee</title>
+  <desc id="description">SL monogram and Seunghun Lee, Robotics at KAIST, on a dark background.</desc>
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Roboto";
+        src: url("../assets/fonts/roboto-latin.woff2") format("woff2");
+        font-weight: 100 900;
+      }
+      text { font-family: "Roboto", Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#141c26"/>
+  <rect x="88" y="164" width="216" height="216" rx="44" fill="#1c3533"/>
+  <text x="196" y="275" text-anchor="middle" dominant-baseline="central" font-size="100" font-weight="700" letter-spacing="-4" fill="#77ddc4">SL</text>
+  <text x="356" y="263" font-size="64" font-weight="700" letter-spacing="-1" fill="#eef3f8">Seunghun Lee</text>
+  <text x="359" y="321" font-size="30" font-weight="400" fill="#a9b8ca">Robotics · KAIST</text>
+  <path d="M88 470H1112" stroke="#2c3949" stroke-width="2"/>
+  <path d="M88 470H168" stroke="#77ddc4" stroke-width="3"/>
+  <text x="88" y="524" font-size="25" font-weight="400" fill="#a9b8ca">leeseunghun03.github.io</text>
+</svg>

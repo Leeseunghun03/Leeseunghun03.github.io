@@ -12,6 +12,9 @@ education, research experience, and selected honors.
 - `_publications/`: publication metadata and BibTeX.
 - `assets/css/site.css`: styles; `assets/js/site.js`: interactions.
 - `files/`: CV, paper PDFs, and citation files.
+- `images/social-card.svg`: source for the link preview card; export as
+  `images/social-card.png` at 1200 × 630 after editing. Sharing metadata is in
+  `_layouts/default.html`.
 
 ## Preview
 
