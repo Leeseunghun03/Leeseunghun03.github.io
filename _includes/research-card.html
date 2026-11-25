@@ -16,6 +16,7 @@
     <p class="research-summary">{{ paper.summary }}</p>
     <div class="text-links">
       <a href="{{ paper.paperurl | relative_url }}">Paper <span aria-hidden="true">↗</span></a>
+      {% if paper.projecturl %}<a href="{{ paper.projecturl }}">Project Page <span aria-hidden="true">↗</span></a>{% endif %}
       {% if paper.video %}<a href="{{ paper.video }}">Video <span aria-hidden="true">↗</span></a>{% endif %}
       {% if paper.codeurl %}<a href="{{ paper.codeurl }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
       {% if paper.bibtex %}<button type="button" class="bibtex-copy" data-citation-id="{{ citation_id }}" aria-controls="{{ citation_id }}" aria-expanded="false" aria-label="Copy BibTeX for {{ paper.short_title | escape }}">BibTeX</button>{% endif %}
