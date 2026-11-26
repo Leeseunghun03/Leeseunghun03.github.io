@@ -5,7 +5,7 @@ The original copyright and permission notice are retained in `LICENSE`.
 
 - **Roboto**: copyright The Roboto Project Authors, SIL Open Font License 1.1.
   See `assets/fonts/roboto-OFL.txt`.
-- **GitHub and LinkedIn SVG glyphs**: Font Awesome Free by Fonticons, Inc.,
+- **GitHub, LinkedIn, and ORCID SVG glyphs**: Font Awesome Free by Fonticons, Inc.,
   CC BY 4.0. Original attribution comments and the license are retained in
   `assets/licenses/fontawesome.txt`. Source: https://fontawesome.com/
 - **CV layout**: adapted from Awesome-PhD-CV / Awesome-CV, CC BY-SA 4.0,

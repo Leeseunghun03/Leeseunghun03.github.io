@@ -21,6 +21,7 @@ description: "Seunghun Lee, M.S. student in Robotics at KAIST. SLAM, multimodal 
       <a class="contact-link contact-link--github" href="https://github.com/{{ site.author.github }}">{% include ui-icon.html name="github" %}<span>GitHub</span></a>
       <a class="contact-link contact-link--cv" href="{{ '/files/seunghun-lee-cv.pdf' | relative_url }}">{% include ui-icon.html name="document" %}<span>CV (PDF)</span></a>
       <a class="contact-link contact-link--linkedin" href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">{% include ui-icon.html name="linkedin" %}<span>LinkedIn</span></a>
+      <a class="contact-link contact-link--orcid" href="https://orcid.org/{{ site.author.orcid }}">{% include ui-icon.html name="orcid" %}<span>ORCID</span></a>
     </div>
     <div class="interests">
       <h2>Research interests</h2>

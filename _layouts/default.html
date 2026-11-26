@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <script defer src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     {% if page.home %}
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":{{ site.name | jsonify }},"url":{{ site.url | jsonify }},"email":{{ site.author.email | prepend: 'mailto:' | jsonify }},"affiliation":{"@type":"Organization","name":"Urban Robotics Lab, KAIST"},"sameAs":["https://github.com/{{ site.author.github }}","https://www.linkedin.com/in/{{ site.author.linkedin }}/"]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":{{ site.name | jsonify }},"url":{{ site.url | jsonify }},"email":{{ site.author.email | prepend: 'mailto:' | jsonify }},"affiliation":{"@type":"Organization","name":"Urban Robotics Lab, KAIST"},"sameAs":["https://github.com/{{ site.author.github }}","https://www.linkedin.com/in/{{ site.author.linkedin }}/","https://orcid.org/{{ site.author.orcid }}"]}</script>
     {% endif %}
   </head>
   <body>
